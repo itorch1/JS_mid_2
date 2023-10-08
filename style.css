@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+}
+.container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid #bbb;
+    width: 100%;
+    outline: none;
+    transition: 1s;
+}
+input:focus{
+    border-color: rgb(49, 146, 70);
+}
+#contacts{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+#contacts h2{
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 15px 25px;
+}
+#contacts li {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 50px;
+    color: rgb(29, 137, 226);
+}
+#contacts div:last-of-type li:last-of-type{
+    border: none;
+}
+
